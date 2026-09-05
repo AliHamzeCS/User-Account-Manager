@@ -1,8 +1,9 @@
 from colorama import Fore, Style, init
 init()
-import Register
 import time
 import os
+import Register
+import Login
 
 # Sleep Function
 def sleep():
@@ -64,7 +65,7 @@ while True:
     elif choice == 2:
        
         clear__and_sleap()
-                
+        Login.login()    
         clear__and_sleap() 
        
     elif choice == 3:
