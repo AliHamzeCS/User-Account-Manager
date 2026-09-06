@@ -4,6 +4,10 @@ import time
 import os
 import Register
 import Login
+import SearchUser
+import ShowUsers
+import UpdateUser
+import DeleteUser
 
 # Sleep Function
 def sleep():
@@ -71,25 +75,25 @@ while True:
     elif choice == 3:
            
         clear__and_sleap()
-           
+        ShowUsers.Show_Users()
         clear__and_sleap()
            
     elif choice == 4:
            
         clear__and_sleap()
-           
+        SearchUser.Search_User()  
         clear__and_sleap()
            
     elif choice == 5:
            
         clear__and_sleap()
-           
+        UpdateUser.Update_User() 
         clear__and_sleap()
                 
     elif choice == 6:
            
         clear__and_sleap()
-           
+        DeleteUser.Delete_User()
         clear__and_sleap()
            
     elif choice == 7:
